@@ -1,0 +1,297 @@
+Athlete,Nation,Sport,First Medal Year,Last Medal Year,Games,Gender,Gold,Silver,Bronze,Total
+Michael Phelps,United States,Swimming,2004,2016,Summer,M,23.0,3.0,2.0,28.0
+Larisa Latynina,Soviet Union,Gymnastics,1956,1964,Summer,F,9.0,5.0,4.0,18.0
+Marit Bjørgen,Norway,Cross-country skiing,2002,2018,Winter,F,8.0,4.0,3.0,15.0
+Nikolai Andrianov,Soviet Union,Gymnastics,1972,1980,Summer,M,7.0,5.0,3.0,15.0
+Ole Einar Bjørndalen,Norway,Biathlon,1998,2014,Winter,M,8.0,4.0,1.0,13.0
+Boris Shakhlin,Soviet Union,Gymnastics,1956,1964,Summer,M,7.0,4.0,2.0,13.0
+Edoardo Mangiarotti,Italy,Fencing,1936,1960,Summer,M,6.0,5.0,2.0,13.0
+Ireen Wüst,Netherlands,Speed skating,2006,2022,Winter,F,6.0,5.0,2.0,13.0
+Takashi Ono,Japan,Gymnastics,1952,1964,Summer,M,5.0,4.0,4.0,13.0
+Paavo Nurmi,Finland,Athletics,1920,1928,Summer,M,9.0,3.0,0.0,12.0
+Birgit Fischer,East Germany  Germany,Canoeing,1980,2004,Summer,F,8.0,4.0,0.0,12.0
+Bjørn Dæhlie,Norway,Cross-country skiing,1992,1998,Winter,M,8.0,4.0,0.0,12.0
+Sawao Katō,Japan,Gymnastics,1968,1976,Summer,M,8.0,3.0,1.0,12.0
+Jenny Thompson,United States,Swimming,1992,2004,Summer,F,8.0,3.0,1.0,12.0
+Isabell Werth,Germany,Equestrian,1992,2020,Summer,F,7.0,5.0,0.0,12.0
+Ryan Lochte,United States,Swimming,2004,2016,Summer,M,6.0,3.0,3.0,12.0
+Dara Torres,United States,Swimming,1984,2008,Summer,F,4.0,4.0,4.0,12.0
+Alexei Nemov,Russia,Gymnastics,1996,2000,Summer,M,4.0,2.0,6.0,12.0
+Natalie Coughlin,United States,Swimming,2004,2012,Summer,F,3.0,4.0,5.0,12.0
+Mark Spitz,United States,Swimming,1968,1972,Summer,M,9.0,1.0,1.0,11.0
+Matt Biondi,United States,Swimming,1984,1992,Summer,M,8.0,2.0,1.0,11.0
+Věra Čáslavská,Czechoslovakia,Gymnastics,1960,1968,Summer,F,7.0,4.0,0.0,11.0
+Viktor Chukarin,Soviet Union,Gymnastics,1952,1956,Summer,M,7.0,3.0,1.0,11.0
+Allyson Felix,United States,Athletics,2004,2020,Summer,F,7.0,3.0,1.0,11.0
+Carl Osburn,United States,Shooting,1912,1924,Summer,M,5.0,4.0,2.0,11.0
+Emma McKeon,Australia,Swimming,2016,2020,Summer,F,5.0,2.0,4.0,11.0
+Arianna Fontana,Italy,Short track speed skating,2006,2022,Winter,F,2.0,4.0,5.0,11.0
+Carl Lewis,United States,Athletics,1984,1996,Summer,M,9.0,1.0,0.0,10.0
+Katie Ledecky,United States,Swimming,2012,2020,Summer,F,7.0,3.0,0.0,10.0
+Aladár Gerevich,Hungary,Fencing,1932,1960,Summer,M,7.0,1.0,2.0,10.0
+Akinori Nakayama,Japan,Gymnastics,1968,1972,Summer,M,6.0,2.0,2.0,10.0
+Vitaly Scherbo,Unified Team  Belarus,Gymnastics,1992,1996,Summer,M,6.0,0.0,4.0,10.0
+Ágnes Keleti,Hungary,Gymnastics,1952,1956,Summer,F,5.0,3.0,2.0,10.0
+Gary Hall Jr.,United States,Swimming,1996,2004,Summer,M,5.0,3.0,2.0,10.0
+Polina Astakhova,Soviet Union,Gymnastics,1956,1964,Summer,F,5.0,2.0,3.0,10.0
+Raisa Smetanina,Soviet Union  Unified Team,Cross-country skiing,1976,1992,Winter,F,4.0,5.0,1.0,10.0
+Allison Schmitt,United States,Swimming,2008,2020,Summer,F,4.0,3.0,3.0,10.0
+Alexander Dityatin,Soviet Union,Gymnastics,1976,1980,Summer,M,3.0,6.0,1.0,10.0
+Stefania Belmondo,Italy,Cross-country skiing,1992,2002,Winter,F,2.0,3.0,5.0,10.0
+Franziska van Almsick,Germany,Swimming,1992,2004,Summer,F,0.0,4.0,6.0,10.0
+Jason Kenny,Great Britain,Cycling,2008,2020,Summer,M,7.0,2.0,0.0,9.0
+Hubert Van Innis,Belgium,Archery,1900,1920,Summer,M,6.0,3.0,0.0,9.0
+Lyubov Yegorova,Unified Team  Russia,Cross-country skiing,1992,1994,Winter,F,6.0,3.0,0.0,9.0
+Valentina Vezzali,Italy,Fencing,1996,2012,Summer,F,6.0,1.0,2.0,9.0
+Nadia Comăneci,Romania,Gymnastics,1976,1980,Summer,F,5.0,3.0,1.0,9.0
+Ian Thorpe,Australia,Swimming,2000,2004,Summer,M,5.0,3.0,1.0,9.0
+Claudia Pechstein,Germany,Speed skating,1992,2006,Winter,F,5.0,2.0,2.0,9.0
+Mitsuo Tsukahara,Japan,Gymnastics,1968,1976,Summer,M,5.0,1.0,3.0,9.0
+Alexander Popov,Unified Team  Russia,Swimming,1992,2000,Summer,M,4.0,5.0,0.0,9.0
+Sixten Jernberg,Sweden,Cross-country skiing,1956,1964,Winter,M,4.0,3.0,2.0,9.0
+Ludmilla Tourischeva,Soviet Union,Gymnastics,1968,1976,Summer,F,4.0,3.0,2.0,9.0
+Sven Kramer,Netherlands,Speed skating,2006,2018,Winter,M,4.0,2.0,3.0,9.0
+Charlotte Kalla,Sweden,Cross-country skiing,2010,2018,Winter,F,3.0,6.0,0.0,9.0
+Anky van Grunsven,Netherlands,Equestrian,1992,2012,Summer,F,3.0,5.0,1.0,9.0
+Leisel Jones,Australia,Swimming,2000,2012,Summer,F,3.0,5.0,1.0,9.0
+Giulio Gaudini,Italy,Fencing,1928,1936,Summer,M,3.0,4.0,2.0,9.0
+Alexander Bolshunov,Olympic Athletes from Russia  ROC,Cross-country skiing,2018,2022,Winter,M,3.0,4.0,2.0,9.0
+Alfred Swahn,Sweden,Shooting,1908,1924,Summer,M,3.0,3.0,3.0,9.0
+Eizo Kenmotsu,Japan,Gymnastics,1968,1976,Summer,M,3.0,3.0,3.0,9.0
+Mikhail Voronin,Soviet Union,Gymnastics,1968,1972,Summer,M,2.0,6.0,1.0,9.0
+Uschi Disl,Germany,Biathlon,1992,2006,Winter,F,2.0,4.0,3.0,9.0
+Heikki Savolainen,Finland,Gymnastics,1928,1952,Summer,M,2.0,1.0,6.0,9.0
+Yuri Titov,Soviet Union,Gymnastics,1956,1964,Summer,M,1.0,5.0,3.0,9.0
+Merlene Ottey,Jamaica,Athletics,1980,2000,Summer,F,0.0,3.0,6.0,9.0
+Ray Ewry,United States,Athletics,1900,1908,Summer,M,8.0,0.0,0.0,8.0
+Usain Bolt,Jamaica,Athletics,2008,2016,Summer,M,8.0,0.0,0.0,8.0
+Gert Fredriksson,Sweden,Canoeing,1948,1960,Summer,M,6.0,1.0,1.0,8.0
+Danuta Kozák,Hungary,Canoeing,2008,2020,Summer,F,6.0,1.0,1.0,8.0
+Reiner Klimke,United Team of Germany  West Germany,Equestrian,1964,1988,Summer,M,6.0,0.0,2.0,8.0
+Ahn Hyun-Soo Viktor Ahn,South Korea  Russia,Short track speed skating,2006,2014,Winter,M,6.0,0.0,2.0,8.0
+Ville Ritola,Finland,Athletics,1924,1928,Summer,M,5.0,3.0,0.0,8.0
+Elisabeta Lipă,Romania,Rowing,1984,2004,Summer,F,5.0,2.0,1.0,8.0
+Johannes Thingnes Bø,Norway,Biathlon,2018,2022,Winter,M,5.0,2.0,1.0,8.0
+Bradley Wiggins,Great Britain,Cycling,2000,2016,Summer,M,5.0,1.0,2.0,8.0
+Nathan Adrian,United States,Swimming,2008,2016,Summer,M,5.0,1.0,2.0,8.0
+Dawn Fraser,Australia,Swimming,1956,1964,Summer,F,4.0,4.0,0.0,8.0
+Kornelia Ender,East Germany,Swimming,1972,1976,Summer,F,4.0,4.0,0.0,8.0
+Otto Olsen,Norway,Shooting,1920,1924,Summer,M,4.0,3.0,1.0,8.0
+Georges Miez,Switzerland,Gymnastics,1924,1936,Summer,M,4.0,3.0,1.0,8.0
+Ricco Groß,Germany,Biathlon,1992,2006,Winter,M,4.0,3.0,1.0,8.0
+Emil Hegle Svendsen,Norway,Biathlon,2010,2018,Winter,M,4.0,3.0,1.0,8.0
+Roland Matthes,East Germany,Swimming,1968,1976,Summer,M,4.0,2.0,2.0,8.0
+Galina Kulakova,Soviet Union,Cross-country skiing,1972,1980,Winter,F,4.0,2.0,2.0,8.0
+Kjetil André Aamodt,Norway,Alpine skiing,1992,2006,Winter,M,4.0,2.0,2.0,8.0
+Sven Fischer,Germany,Biathlon,1994,2006,Winter,M,4.0,2.0,2.0,8.0
+Inge de Bruijn,Netherlands,Swimming,2000,2004,Summer,F,4.0,2.0,2.0,8.0
+Jason Lezak,United States,Swimming,2000,2012,Summer,M,4.0,2.0,2.0,8.0
+Giovanna Trillini,Italy,Fencing,1992,2008,Summer,F,4.0,1.0,3.0,8.0
+Cate Campbell,Australia,Swimming,2008,2020,Summer,F,4.0,1.0,3.0,8.0
+Katalin Kovács,Hungary,Canoeing,2000,2012,Summer,F,3.0,5.0,0.0,8.0
+Roger Ducret,France,Fencing,1920,1928,Summer,M,3.0,4.0,1.0,8.0
+Philippe Cattiau,France,Fencing,1920,1936,Summer,M,3.0,4.0,1.0,8.0
+Karin Enke,East Germany,Speed skating,1980,1988,Winter,F,3.0,4.0,1.0,8.0
+Gunda Niemann-Stirnemann,Germany,Speed skating,1992,1998,Winter,F,3.0,4.0,1.0,8.0
+Petria Thomas,Australia,Swimming,1996,2004,Summer,F,3.0,4.0,1.0,8.0
+Shelly-Ann Fraser-Pryce,Jamaica,Athletics,2008,2020,Summer,F,3.0,4.0,1.0,8.0
+Veronica Campbell-Brown,Jamaica,Athletics,2000,2016,Summer,F,3.0,3.0,2.0,8.0
+Shirley Babashoff,United States,Swimming,1972,1976,Summer,F,2.0,6.0,0.0,8.0
+Susie O'Neill,Australia,Swimming,1992,2000,Summer,F,2.0,4.0,2.0,8.0
+Eugen Mack,Switzerland,Gymnastics,1928,1936,Summer,M,2.0,4.0,2.0,8.0
+Margit Korondi,Hungary,Gymnastics,1952,1956,Summer,F,2.0,2.0,4.0,8.0
+Sofia Muratova,Soviet Union,Gymnastics,1956,1960,Summer,F,2.0,2.0,4.0,8.0
+Dmitri Sautin,Unified Team  Russia,Diving,1992,2008,Summer,M,2.0,2.0,4.0,8.0
+Apolo Ohno,United States,Short track speed skating,2002,2010,Winter,M,2.0,2.0,4.0,8.0
+Tiril Eckhoff,Norway,Biathlon,2014,2022,Winter,F,2.0,2.0,4.0,8.0
+Svetlana Romashina,Russia  ROC,Synchronized swimming,2008,2020,Summer,F,7.0,0.0,0.0,7.0
+Caeleb Dressel,United States,Swimming,2016,2020,Summer,M,7.0,0.0,0.0,7.0
+Chris Hoy,Great Britain,Cycling,2000,2012,Summer,M,6.0,1.0,0.0,7.0
+Natalie Geisenberger,Germany,Luge,2010,2022,Winter,F,6.0,0.0,1.0,7.0
+Pál Kovács,Hungary,Fencing,1936,1960,Summer,M,6.0,0.0,1.0,7.0
+Yukio Endō,Japan,Gymnastics,1960,1968,Summer,M,5.0,2.0,0.0,7.0
+Aaron Peirsol,United States,Swimming,2000,2008,Summer,M,5.0,2.0,0.0,7.0
+Martin Fourcade,France,Biathlon,2010,2018,Winter,M,5.0,2.0,0.0,7.0
+Willis Augustus Lee,United States,Shooting,1920,1920,Summer,M,5.0,1.0,1.0,7.0
+Clas Thunberg,Finland,Speed skating,1924,1928,Winter,M,5.0,1.0,1.0,7.0
+Hans Günter Winkler,United Team of Germany  West Germany,Equestrian,1956,1976,Summer,M,5.0,1.0,1.0,7.0
+Tom Jager,United States,Swimming,1984,1992,Summer,M,5.0,1.0,1.0,7.0
+Krisztina Egerszegi,Hungary,Swimming,1988,1996,Summer,F,5.0,1.0,1.0,7.0
+Larisa Lazutina,Unified Team  Russia,Cross-country skiing,1992,1998,Winter,F,5.0,1.0,1.0,7.0
+Dana Vollmer,United States,Swimming,2004,2016,Summer,F,5.0,1.0,1.0,7.0
+Wu Minxia,China,Diving,2004,2016,Summer,F,5.0,1.0,1.0,7.0
+Johannes Høsflot Klæbo,Norway,Cross-country skiing,2018,2022,Winter,M,5.0,1.0,1.0,7.0
+Ivan Patzaichin,Romania,Canoeing,1968,1984,Summer,M,4.0,3.0,0.0,7.0
+Einar Liberg,Norway,Shooting,1908,1924,Summer,M,4.0,2.0,1.0,7.0
+Ivar Ballangrud,Norway,Speed skating,1928,1936,Winter,M,4.0,2.0,1.0,7.0
+Charles Daniels,United States,Swimming,1904,1908,Summer,M,4.0,1.0,2.0,7.0
+Lloyd Spooner,United States,Shooting,1920,1920,Summer,M,4.0,1.0,2.0,7.0
+Simone Biles,United States,Gymnastics,2016,2020,Summer,F,4.0,1.0,2.0,7.0
+Kosuke Kitajima,Japan,Swimming,2004,2012,Summer,M,4.0,1.0,2.0,7.0
+Libby Trickett,Australia,Swimming,2004,2012,Summer,F,4.0,1.0,2.0,7.0
+Vilhelm Carlberg,Sweden,Shooting,1908,1924,Summer,M,3.0,4.0,0.0,7.0
+Kōhei Uchimura,Japan,Gymnastics,2008,2016,Summer,M,3.0,4.0,0.0,7.0
+Veikko Hakulinen,Finland,Cross-country skiing,1952,1960,Winter,M,3.0,3.0,1.0,7.0
+Grant Hackett,Australia,Swimming,2000,2008,Summer,M,3.0,3.0,1.0,7.0
+Kati Wilhelm,Germany,Biathlon,2002,2010,Winter,F,3.0,3.0,1.0,7.0
+Emily Seebohm,Australia,Swimming,2008,2020,Summer,F,3.0,3.0,1.0,7.0
+Eero Mäntyranta,Finland,Cross-country skiing,1960,1968,Winter,M,3.0,2.0,2.0,7.0
+Irena Szewińska,Poland,Athletics,1964,1976,Summer,F,3.0,2.0,2.0,7.0
+Agneta Andersson,Sweden,Canoeing,1984,1996,Summer,F,3.0,2.0,2.0,7.0
+Pieter van den Hoogenband,Netherlands,Swimming,2000,2004,Summer,M,3.0,2.0,2.0,7.0
+Martina Sáblíková,Czech Republic,Speed skating,2010,2022,Winter,F,3.0,2.0,2.0,7.0
+Eric Frenzel,Germany,Nordic combined,2010,2022,Winter,M,3.0,2.0,2.0,7.0
+Marte Olsbu Røiseland,Norway,Biathlon,2018,2022,Winter,F,3.0,2.0,2.0,7.0
+Shirley Strickland,Australia,Athletics,1948,1956,Summer,F,3.0,1.0,3.0,7.0
+Simona Amânar,Romania,Gymnastics,1996,2000,Summer,F,3.0,1.0,3.0,7.0
+Felix Gottwald,Austria,Nordic combined,2002,2010,Winter,M,3.0,1.0,3.0,7.0
+Marja-Liisa Kirvesniemi,Finland,Cross-country skiing,1984,1994,Winter,F,3.0,0.0,4.0,7.0
+Yelena Välbe,Unified Team  Russia,Cross-country skiing,1992,1998,Winter,F,3.0,0.0,4.0,7.0
+Gustavo Marzi,Italy,Fencing,1928,1936,Summer,M,2.0,5.0,0.0,7.0
+Maria Gorokhovskaya,Soviet Union,Gymnastics,1952,1952,Summer,F,2.0,5.0,0.0,7.0
+Zoltán Halmay,Hungary,Swimming,1900,1908,Summer,M,2.0,4.0,1.0,7.0
+Amanda Beard,United States,Swimming,1996,2004,Summer,F,2.0,4.0,1.0,7.0
+Svetlana Khorkina,Russia,Gymnastics,1996,2004,Summer,F,2.0,4.0,1.0,7.0
+Kirsty Coventry,Zimbabwe,Swimming,2004,2008,Summer,F,2.0,4.0,1.0,7.0
+Miho Takagi,Japan,Speed skating,2018,2022,Winter,F,2.0,4.0,1.0,7.0
+Ildikó Újlaky-Rejtő,Hungary,Fencing,1960,1976,Summer,F,2.0,3.0,2.0,7.0
+Karin Janz,East Germany,Gymnastics,1968,1972,Summer,F,2.0,3.0,2.0,7.0
+Pavel Lednyov,Soviet Union,Modern Pentathlon,1968,1980,Summer,M,2.0,2.0,3.0,7.0
+Shannon Miller,United States,Gymnastics,1992,1996,Summer,F,2.0,2.0,3.0,7.0
+Manuela Di Centa,Italy,Cross-country skiing,1992,1998,Winter,F,2.0,2.0,3.0,7.0
+Aliya Mustafina,Russia,Gymnastics,2012,2016,Summer,F,2.0,2.0,3.0,7.0
+Andrea Ehrig-Mitscherlich,East Germany,Speed skating,1976,1988,Winter,F,1.0,5.0,1.0,7.0
+Bogdan Musiol,East Germany  Germany,Bobsleigh,1980,1992,Summer,M,1.0,5.0,1.0,7.0
+Dagmar Hase,Germany,Swimming,1992,1996,Summer,F,1.0,5.0,1.0,7.0
+Vladimir Smirnov,Soviet Union  Kazakhstan,Cross-country skiing,1988,1994,Winter,M,1.0,4.0,2.0,7.0
+Denis Ablyazin,Russia  ROC,Gymnastics,2012,2020,Summer,M,1.0,4.0,2.0,7.0
+Masao Takemoto,Japan,Gymnastics,1952,1960,Summer,M,1.0,3.0,3.0,7.0
+Josef Stalder,Switzerland,Gymnastics,1948,1952,Summer,M,1.0,3.0,3.0,7.0
+Penny Oleksiak,Canada,Swimming,2016,2020,Summer,F,1.0,2.0,4.0,7.0
+Huang Xuechen,China,Synchronized Swimming,2008,2020,Summer,F,0.0,5.0,2.0,7.0
+Rudolf Kárpáti,Hungary,Fencing,1948,1960,Summer,M,6.0,0.0,0.0,6.0
+Nedo Nadi,Italy,Fencing,1912,1920,Summer,M,6.0,0.0,0.0,6.0
+Kristin Otto,East Germany,Swimming,1988,1988,Summer,F,6.0,0.0,0.0,6.0
+Amy Van Dyken,United States,Swimming,1996,2000,Summer,F,6.0,0.0,0.0,6.0
+Lidiya Skoblikova,Soviet Union,Speed skating,1960,1964,Winter,F,6.0,0.0,0.0,6.0
+Tobias Arlt,Germany,Luge,2014,2022,Winter,M,6.0,0.0,0.0,6.0
+Tobias Wendl,Germany,Luge,2014,2022,Winter,M,6.0,0.0,0.0,6.0
+Nellie Kim,Soviet Union,Gymnastics,1976,1980,Summer,F,5.0,1.0,0.0,6.0
+Anton Heida,United States,Gymnastics,1904,1904,Summer,M,5.0,1.0,0.0,6.0
+Ole Lilloe-Olsen,Norway,Shooting,1920,1924,Summer,M,5.0,1.0,0.0,6.0
+Don Schollander,United States,Swimming,1964,1968,Summer,M,5.0,1.0,0.0,6.0
+Thomas Alsgaard,Norway,Cross-country skiing,1994,2002,Winter,M,5.0,1.0,0.0,6.0
+Laura Kenny,Great Britain,Cycling,2012,2020,Summer,F,5.0,1.0,0.0,6.0
+Elaine Thompson-Herah,Jamaica,Athletics,2016,2020,Summer,F,5.0,1.0,0.0,6.0
+Steve Redgrave,Great Britain,Rowing,1984,2000,Summer,M,5.0,0.0,1.0,6.0
+Alfred Lane,United States,Shooting,1912,1920,Summer,M,5.0,0.0,1.0,6.0
+Johnny Weissmuller,United States,Swimming Water polo,1924,1928,Summer,M,5.0,0.0,1.0,6.0
+Bonnie Blair,United States,Speed skating,1988,1994,Winter,F,5.0,0.0,1.0,6.0
+Georgeta Damian,Romania,Rowing,2000,2008,Summer,F,5.0,0.0,1.0,6.0
+Zou Kai,China,Gymnastics,2008,2012,Summer,M,5.0,0.0,1.0,6.0
+Lisa Carrington,New Zealand,Canoeing,2012,2020,Summer,F,5.0,0.0,1.0,6.0
+Missy Franklin,United States,Swimming,2012,2016,Summer,F,5.0,0.0,1.0,6.0
+Christian d'Oriola,France,Fencing,1948,1956,Summer,M,4.0,2.0,0.0,6.0
+Lucien Gaudin,France,Fencing,1920,1928,Summer,M,4.0,2.0,0.0,6.0
+Giuseppe Delfino,Italy,Fencing,1952,1964,Summer,M,4.0,2.0,0.0,6.0
+Olga Korbut,Soviet Union,Gymnastics,1972,1976,Summer,F,4.0,2.0,0.0,6.0
+Guo Jingjing,China,Diving,2000,2008,Summer,F,4.0,2.0,0.0,6.0
+Janica Kostelić,Croatia,Alpine skiing,2002,2006,Winter,F,4.0,2.0,0.0,6.0
+Kevin Kuske,Germany,Bobsleigh,2002,2018,Winter,M,4.0,2.0,0.0,6.0
+Jin Jong-oh,South Korea,Shooting,2004,2016,Summer,M,4.0,2.0,0.0,6.0
+Matt Grevers,United States,Swimming,2002,2012,Summer,M,4.0,2.0,0.0,6.0
+Jørgen Graabak,Norway,Nordic combined,2014,2022,Winter,M,4.0,2.0,0.0,6.0
+Kim Soo-nyung,South Korea,Archery,1988,2000,Summer,F,4.0,1.0,1.0,6.0
+Leontien van Moorsel,Netherlands,Cycling,2000,2004,Summer,F,4.0,1.0,1.0,6.0
+Elena Belova,Soviet Union,Fencing,1968,1980,Summer,F,4.0,1.0,1.0,6.0
+Viktor Sidyak,Soviet Union,Fencing,1968,1980,Summer,M,4.0,1.0,1.0,6.0
+Doina Ignat,Romania,Rowing,1992,2008,Summer,F,4.0,1.0,1.0,6.0
+Murray Rose,Australia,Swimming,1956,1960,Summer,M,4.0,1.0,1.0,6.0
+Katrin Wagner-Augustin,Germany,Canoeing,2000,2012,Summer,F,4.0,1.0,1.0,6.0
+Gunde Svan,Sweden,Cross-country skiing,1984,1988,Winter,M,4.0,1.0,1.0,6.0
+Charles Hamelin,Canada,Short track speed skating,2006,2022,Winter,M,4.0,1.0,1.0,6.0
+Wang Meng,China,Short track speed skating,2006,2010,Winter,F,4.0,1.0,1.0,6.0
+Darya Domracheva,Belarus,Biathlon,2010,2018,Winter,F,4.0,1.0,1.0,6.0
+Therese Johaug,Norway,Cross-country skiing,2010,2022,Winter,F,4.0,1.0,1.0,6.0
+Ryan Murphy,United States,Swimming,2016,2020,Summer,M,4.0,1.0,1.0,6.0
+Győző Kulcsár,Hungary,Fencing,1964,1976,Summer,M,4.0,0.0,2.0,6.0
+Andrea Pollack,East Germany,Swimming,1976,1980,Summer,F,3.0,3.0,0.0,6.0
+Rebecca Soni,United States,Swimming,1920,1928,Summer,F,3.0,3.0,0.0,6.0
+Anastasiya Kuzmina,Slovakia,Biathlon,2010,2018,Winter,F,3.0,3.0,0.0,6.0
+Knut Holmann,Norway,Canoeing,1992,2000,Summer,M,3.0,2.0,1.0,6.0
+Andrew Hoy,Australia,Equestrian,1992,2020,Summer,M,3.0,2.0,1.0,6.0
+Vladimir Nazlymov,Soviet Union,Fencing,1968,1980,Summer,M,3.0,2.0,1.0,6.0
+Daniela Silivaș,Romania,Gymnastics,1988,1988,Summer,F,3.0,2.0,1.0,6.0
+Li Ning,China,Gymnastics,1984,1984,Summer,M,3.0,2.0,1.0,6.0
+Hermann Weingärtner,Germany,Gymnastics,1896,1896,Summer,M,3.0,2.0,1.0,6.0
+George Eyser,United States,Gymnastics,1904,1904,Summer,M,3.0,2.0,1.0,6.0
+Michael Groß,West Germany,Swimming,1984,1988,Summer,M,3.0,2.0,1.0,6.0
+Renate Stecher,East Germany,Athletics,1972,1976,Summer,F,3.0,2.0,1.0,6.0
+Ralph Rose,United States,Athletics,1904,1912,Summer,M,3.0,2.0,1.0,6.0
+Halvard Hanevold,Norway,Biathlon,1998,2010,Winter,M,3.0,2.0,1.0,6.0
+Natasa Dusev-Janics,Hungary,Canoeing,2004,2012,Summer,F,3.0,2.0,1.0,6.0
+Vegard Ulvang,Norway,Cross-country skiing,1988,1994,Winter,M,3.0,2.0,1.0,6.0
+Yuliya Chepalova,Russia,Cross-country skiing,1998,2006,Winter,F,3.0,2.0,1.0,6.0
+Sun Yang,China,Swimming,2012,2016,Summer,M,3.0,2.0,1.0,6.0
+Tarjei Bø,Norway,Biathlon,2010,2022,Winter,M,3.0,2.0,1.0,6.0
+Aly Raisman,United States,Gymnastics,2012,2016,Summer,F,3.0,2.0,1.0,6.0
+Konrad Frey,Germany,Gymnastics,1936,1936,Summer,M,3.0,1.0,2.0,6.0
+Alfred Schwarzmann,Germany  Germany,Gymnastics,1936,1952,Summer,M,3.0,1.0,2.0,6.0
+Leon Štukelj,Yugoslavia,Gymnastics,1924,1936,Summer,M,3.0,1.0,2.0,6.0
+Oscar Swahn,Sweden,Shooting,1908,1920,Summer,M,3.0,1.0,2.0,6.0
+Kim Rhode,United States,Shooting,1996,2016,Summer,F,3.0,1.0,2.0,6.0
+Jackie Joyner-Kersee,United States,Athletics,1984,1996,Summer,F,3.0,1.0,2.0,6.0
+Johan Grøttumsbråten,Norway,Cross-country skiing Nordic combined,1924,1932,Winter,M,3.0,1.0,2.0,6.0
+Brendan Hansen,United States,Swimming,2004,2012,Summer,M,3.0,1.0,2.0,6.0
+Charlotte Dujardin,Great Britain,Equestrian,2012,2020,Summer,F,3.0,1.0,2.0,6.0
+Suzanne Schulting,Netherlands,Short track speed skating,2018,2022,Winter,F,3.0,1.0,2.0,6.0
+Rüdiger Helm,East Germany,Canoeing,1976,1980,Summer,M,3.0,0.0,3.0,6.0
+Angel Martino,United States,Swimming,1992,1996,Summer,F,3.0,0.0,3.0,6.0
+Tirunesh Dibaba,Ethiopia,Athletics,2004,2016,Summer,F,3.0,0.0,3.0,6.0
+Max Whitlock,Great Britain,Gymnastics,2012,2020,Summer,M,3.0,0.0,3.0,6.0
+Michael Plumb,United States,Equestrian,1964,1984,Summer,M,2.0,4.0,0.0,6.0
+Rita Kőbán,Hungary,Canoeing,1988,2000,Summer,F,2.0,3.0,1.0,6.0
+Burton Downing,United States,Cycling,1904,1904,Summer,M,2.0,3.0,1.0,6.0
+Georges Buchard,France,Fencing,1924,1936,Summer,M,2.0,3.0,1.0,6.0
+Tamara Manina,Soviet Union,Gymnastics,1956,1964,Summer,F,2.0,3.0,1.0,6.0
+Li Xiaoshuang,China,Gymnastics,1992,1996,Summer,M,2.0,3.0,1.0,6.0
+Shuji Tsurumi,Japan,Gymnastics,1960,1964,Summer,M,2.0,3.0,1.0,6.0
+Veronica Cochela,Romania  Romania,Rowing,1988,2000,Summer,F,2.0,3.0,1.0,6.0
+Wang Yifu,China,Shooting,1984,2004,Summer,M,2.0,3.0,1.0,6.0
+Albert Helgerud,Norway,Shooting,1908,1920,Summer,M,2.0,3.0,1.0,6.0
+Michael Klim,Australia,Swimming,1996,2004,Summer,M,2.0,3.0,1.0,6.0
+Sergei Tchepikov,Soviet Union  Unified Team  Russia,Biathlon,1988,2006,Winter,M,2.0,3.0,1.0,6.0
+Wolfgang Hoppe,East Germany  Germany,Bobsleigh,1984,1994,Winter,M,2.0,3.0,1.0,6.0
+Claudia Nystad,Germany,Cross-country skiing,2002,2014,Winter,F,2.0,3.0,1.0,6.0
+Lee Seung-hoon,South Korea,Speed skating,2010,2022,Winter,M,2.0,3.0,1.0,6.0
+Josef Neckermann,United Team of Germany  West Germany,Equestrian,1960,1972,Summer,M,2.0,2.0,2.0,6.0
+Philippe Riboud,France,Fencing,1980,1988,Summer,M,2.0,2.0,2.0,6.0
+Robert Garrett,United States,Athletics,1896,1900,Summer,M,2.0,2.0,2.0,6.0
+Eugenio Monti,Italy,Bobsleigh,1956,1968,Winter,M,2.0,2.0,2.0,6.0
+Mark Todd,New Zealand,Equestrian,1984,2012,Summer,M,2.0,1.0,3.0,6.0
+Lavinia Miloșovici,Romania,Gymnastics,1992,1996,Summer,F,2.0,1.0,3.0,6.0
+Daniela Hunger,East Germany  Germany,Swimming,1988,1992,Summer,F,2.0,1.0,3.0,6.0
+Armin Zöggeler,Italy,Luge,1994,2014,Winter,M,2.0,1.0,3.0,6.0
+Anna Meares,Australia,Cycling,2004,2016,Summer,F,2.0,1.0,3.0,6.0
+Johan Olsson,Sweden,Cross-country skiing,2006,2014,Winter,M,2.0,1.0,3.0,6.0
+Duncan Scott,Great Britain,Swimming,2016,2020,Summer,M,1.0,5.0,0.0,6.0
+Hrihoriy Misyutin,Unified Team  Ukraine,Gymnastics,1992,1996,Summer,M,1.0,4.0,1.0,6.0
+Kateřina Neumannová,Czech Republic,Cross-country skiing,1998,2006,Winter,F,1.0,4.0,1.0,6.0
+Olga Tass,Hungary,Gymnastics,1948,1956,Summer,F,1.0,3.0,2.0,6.0
+Bode Miller,United States,Alpine skiing,2002,2014,Winter,M,1.0,3.0,2.0,6.0
+Raimondo D'Inzeo,Italy,Equestrian,1956,1972,Summer,M,1.0,2.0,3.0,6.0
+Pavel Kolobkov,Soviet Union  Unified Team  Russia,Fencing,1988,2004,Summer,M,1.0,2.0,3.0,6.0
+Cindy Klassen,Canada,Speed skating,2002,2006,Winter,F,1.0,2.0,3.0,6.0
+Clara Hughes,Canada,Cycling Speed skating,1996,2010,Summer Winter,F,1.0,1.0,4.0,6.0
+Mika Myllylä,Finland,Cross-country skiing,1994,1998,Winter,M,1.0,1.0,4.0,6.0
+Anja Pärson,Sweden,Alpine skiing,2002,2010,Winter,F,1.0,1.0,4.0,6.0
+Kyle Chalmers,Australia,Swimming,2016,2020,Summer,M,1.0,1.0,4.0,6.0
+Andre De Grasse,Canada,Athletics,2016,2020,Summer,M,1.0,1.0,4.0,6.0
+Daniel Revenu,France,Fencing,1964,1976,Summer,M,1.0,0.0,5.0,6.0
+László Cseh,Hungary,Swimming,2004,2016,Summer,M,0.0,4.0,2.0,6.0
+Frank Beaurepaire,Australasia  Australia,Swimming,1908,1924,Summer,M,0.0,3.0,3.0,6.0
+Piero D'Inzeo,Italy,Equestrian,1956,1972,Summer,M,0.0,2.0,4.0,6.0
+Roald Larsen,Norway,Speed skating,1924,1928,Winter,M,0.0,2.0,4.0,6.0
+Rintje Ritsma,Netherlands,Speed skating,1994,2006,Winter,M,0.0,2.0,4.0,6.0
+Dimitrij Ovtcharov,Germany,Table tennis,2008,2020,Summer,M,0.0,2.0,4.0,6.0
+Harri Kirvesniemi,Finland,Cross-country skiing,1980,1998,Winter,M,0.0,0.0,6.0,6.0
