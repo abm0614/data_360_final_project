@@ -91,10 +91,8 @@ with col1:
     plt.xlabel('Country')
     plt.ylabel('Total Medals')
     plt.title('Total Medals Held by Multiple-Time Recipients by Country')
-    plt.xticks(rotation=90)
+    plt.xticks(rotation=90, fontsize=8)
     st.pyplot(plt)
-
-
 
 
 with col2:
