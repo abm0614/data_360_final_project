@@ -1,45 +1,87 @@
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
 import numpy as np
-import matplotlib.pyplot as plt 
 import re 
 
-st.set_page_config(page_title="Olympic Medal Recipients", layout="wide")
+st.set_page_config(page_title="Multi-Olympic Medal Recipients", layout="wide")
 
-st.title('Olympic Medal Recipients')
-st.write("This is an app built from data scraped from Wikipedia" )
+st.title('Multiple Olympic Medal Recipients')
+st.write("This is an app built from data scraped from [Wikipedia](https://en.wikipedia.org/wiki/List_of_multiple_Olympic_medalists) containing information about athletes who have won six or more Olympic Medals during their sporting career.")
 
+# Load and clean data
 data = pd.read_csv('project_data_final.csv')
-
 data = data.dropna()
 
-col1, col2= st.columns([0.5,.4])
-with col1:
-    prep_time = st.slider(
-     "Select a range of prep times in minutes", 0, 60, (10, 30))
-data['Prep Time Int'] = pd.to_numeric(data['Prep Time'].str.extract('(\d+)')[0])
-mask = (data['Prep Time Int'] >= prep_time[0]) & (data['Prep Time Int'] <= prep_time[1])
-filtered_data = data[mask]
-with col1:
-    total_time = st.slider(
-     "Select a range of total times in minutes", 0, 720, (10, 120))
-mask2 = (data['Total Time (mins)'] >= total_time[0]) & (data['Total Time (mins)'] <= total_time[1])
-filtered_data = data[mask2]
-with col1:
-    calories = st.slider(
-     "Select a range of calories", 0, 1300, (100, 600))
-mask3 = (data['Calories'] >= calories[0]) & (data['Calories'] <= calories[1])
-filtered_data = data[mask3]
+# Sidebar for filters
+st.sidebar.title('Filters')
+sport = st.sidebar.selectbox("Choose a sport", np.insert(np.sort(data['Sport'].unique()), 0, "All Sports"))
+if sport != "All Sports":
+    data = data[data['Sport'] == sport]
 
-filtered_data = filtered_data.drop(['Prep Time Int', 'Prep Time (mins)', 'Total Time (mins)'], axis=1)
+nations = st.sidebar.multiselect("Select Nations", options=np.sort(data['Nation'].unique()), default=None)
+if nations:
+    data = data[data['Nation'].isin(nations)]
+
+st.sidebar.write("Select Gender:")
+gender_col1, gender_col2 = st.sidebar.columns(2)
+male = gender_col1.checkbox('Male', key='male', value=True)  # Default value is checked
+female = gender_col2.checkbox('Female', key='female', value=True)  # Default value is checked
+
+if not male:
+    data = data[data['Gender'] != 'M']
+if not female:
+    data = data[data['Gender'] != 'F']
+
+first_medal = st.sidebar.slider("Select Year Range for First Medal", data['First Medal Year'].min(), data['First Medal Year'].max(), (data['First Medal Year'].min(), data['First Medal Year'].max()))
+data = data[(data['First Medal Year'] >= first_medal[0]) & (data['First Medal Year'] <= first_medal[1])]
+
+last_medal = st.sidebar.slider("Select Year Range for Last Medal", data['Last Medal Year'].min(), data['Last Medal Year'].max(), (data['Last Medal Year'].min(), data['Last Medal Year'].max()))
+data = data[(data['Last Medal Year'] >= last_medal[0]) & (data['Last Medal Year'] <= last_medal[1])]
+
+# Main panel
+col1, col2 = st.columns([0.5, 0.5])
+
+with col1:
+    st.dataframe(data, hide_index=True)
+
+    # Display total medals and athletes statistics
+    total_medals = data['Total'].sum()
+    total_athletes = data['Athlete'].nunique()
+    st.metric("Total Medals", total_medals)
+    st.metric("Total Athletes", total_athletes)
+
+    plt.figure(figsize=(6, 4))
+    bins1 = data['First Medal Year'].max()- data['First Medal Year'].min() + 1
+    plt.hist(data['First Medal Year'], bins=bins1, color='red')
+    plt.title('Distribution of First Medal Years')
+    plt.xlabel('Year')
+    plt.ylabel('Number of Athletes')
+    plt.xticks(np.arange(1895, 2020, 5))
+    plt.xticks(rotation=90)
+    st.pyplot(plt)
+
 
 with col2:
 
-    plt.figure(figsize=(9, 5))
-    plt.hist(filtered_data['Calories'], bins=20)
-    plt.title('Distribution of Calories')
-    plt.xlabel('Calories')
+    # Medal distribution by type for the selected filter
+    medal_types = data[['Gold', 'Silver', 'Bronze']].sum()
+    plt.figure(figsize=(6, 4))
+    medal_types.plot(kind='bar', color=['#FFD700', '#C0C0C0', '#CD7F32'])
+    plt.title('Medal Distribution')
+    plt.xlabel('Medal Type')
+    plt.ylabel('Count')
+    plt.xticks(rotation=0)
+    #plt.tight_layout()
     st.pyplot(plt)
 
-st.dataframe(filtered_data, hide_index=True, 
-         column_config={"URL": st.column_config.LinkColumn(display_text="Link")})
+    # Total medals by country for the selected filters
+    medals_by_country = data.groupby('Nation')['Total'].sum().sort_values(ascending=False)
+    plt.figure(figsize=(10, 8))
+    plt.bar(medals_by_country.index, medals_by_country.values, color='red')
+    plt.xlabel('Country')
+    plt.ylabel('Total Medals')
+    plt.title('Total Medals Held by Multiple-Time Recipients by Country')
+    plt.xticks(rotation=90)
+    #plt.tight_layout()
+    st.pyplot(plt)
