@@ -87,7 +87,7 @@ with col1:
     # Total medals by country for the selected filters
     medals_by_country = data.groupby('Nation')['Total'].sum().sort_values(ascending=False)
     plt.figure(figsize=(6, 4))
-    plt.bar(medals_by_country.index, medals_by_country.values, color='red')
+    plt.bar(medals_by_country.index, medals_by_country.values, color='#fb7171')
     plt.xlabel('Country')
     plt.ylabel('Total Medals')
     plt.title('Total Medals Held by Multiple-Time Recipients by Country')
@@ -109,10 +109,20 @@ with col2:
 
     plt.figure(figsize=(6, 4))
     bins1 = data['First Medal Year'].max()- data['First Medal Year'].min() + 1
-    plt.hist(data['First Medal Year'], bins=bins1, color='red')
+    plt.hist(data['First Medal Year'], bins=bins1, color='#fb7171')
     plt.title('Distribution of First Medal Years')
     plt.xlabel('Year')
     plt.ylabel('Number of Athletes')
     plt.xticks(np.arange(1895, 2020, 5))
     plt.xticks(rotation=90)
+    st.pyplot(plt)
+
+     
+    athletes_by_sport = data.groupby('Sport')['Athlete'].nunique()
+    plt.figure(figsize=(6, 4))
+    athletes_by_sport.plot(kind='bar', color='#fb7171')
+    plt.title('Athlete Count by Sport')
+    plt.xlabel('Sport')
+    plt.ylabel('Number of Athletes')
+    plt.xticks(rotation=90, fontsize=8)
     st.pyplot(plt)
