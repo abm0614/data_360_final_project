@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import plotly.express as px
+import seaborn as sns
 
 st.set_page_config(page_title="Multi-Olympic Medal Recipients", layout="wide")
 
@@ -32,8 +34,8 @@ male = gender_col1.checkbox('Male', key='male', value=True)
 female = gender_col2.checkbox('Female', key='female', value=True)
 
 # First and Last Medal Year sliders
-first_medal = st.sidebar.slider("Select Year Range for First Medal", data['First Medal Year'].min(), data['First Medal Year'].max(), (data['First Medal Year'].min(), data['First Medal Year'].max()))
-last_medal = st.sidebar.slider("Select Year Range for Last Medal", data['Last Medal Year'].min(), data['Last Medal Year'].max(), (data['Last Medal Year'].min(), data['Last Medal Year'].max()))
+first_medal = st.sidebar.slider("Year Range for First Medal won by Athlete", data['First Medal Year'].min(), data['First Medal Year'].max(), (data['First Medal Year'].min(), data['First Medal Year'].max()))
+last_medal = st.sidebar.slider("Year Range for Last Medal won by Athlete", data['Last Medal Year'].min(), data['Last Medal Year'].max(), (data['Last Medal Year'].min(), data['Last Medal Year'].max()))
 
 # Olympic Games type selection
 st.sidebar.write("Select type of Olympic Games:")
@@ -68,6 +70,28 @@ if not winter:
     data = data[data['Games'] != 'Winter']
 
 
+col1, col2 = st.columns([0.85, 0.2])
+
+with col1:
+    st.dataframe(data)
+
+with col2:
+    # Displaying total medals and athletes statistics
+    total_medals = data['Total'].sum()
+    total_athletes = data['Athlete'].nunique()
+    st.metric("Total Medals", total_medals)
+    st.metric("Total Athletes", total_athletes)
+
+    
+    # Medal distribution by type for the selected filter
+    medal_types = data[['Gold', 'Silver', 'Bronze']].sum()
+    plt.figure(figsize=(4, 4))
+    medal_types.plot(kind='pie', colors=['#FFD700', '#C0C0C0', '#CD7F32'], autopct='%1.0f%%')
+    plt.title('Medal Distribution')
+    plt.xlabel('Medal Type')
+    plt.ylabel('Count')
+    plt.xticks(rotation=0)
+    st.pyplot(plt)
 
 
 # Main panel
@@ -75,37 +99,32 @@ col1, col2 = st.columns([0.6, 0.4])
 
 with col1:
     
-    # Display filtered data and statistics
-    st.dataframe(data)
+    # Aggregate total medals by country
+    medal_count_by_country = data.groupby('Nation')['Total'].sum().reset_index()
 
-    # Displaying total medals and athletes statistics
-    total_medals = data['Total'].sum()
-    total_athletes = data['Athlete'].nunique()
-    st.metric("Total Medals", total_medals)
-    st.metric("Total Athletes", total_athletes)
+    # Create a choropleth map of total medals by country
+    fig = px.choropleth(data_frame=medal_count_by_country,
+            locations="Nation",
+                locationmode='country names',
+                    color="Total",
+                    color_continuous_scale="Viridis",
+                    title="Total Olympic Medals by Country",
+                    labels={"Total": "Total Medals"},
+                    hover_name="Nation")
 
-    # Total medals by country for the selected filters
-    medals_by_country = data.groupby('Nation')['Total'].sum().sort_values(ascending=False)
+    st.plotly_chart(fig, use_container_width=True)
+
+    athletes_by_sport = data.groupby('Sport')['Athlete'].nunique().reset_index()
     plt.figure(figsize=(6, 4))
-    plt.bar(medals_by_country.index, medals_by_country.values, color='#fb7171')
-    plt.xlabel('Country')
-    plt.ylabel('Total Medals')
-    plt.title('Total Medals Held by Multiple-Time Recipients by Country')
-    plt.xticks(rotation=90, fontsize=8)
+    sns.barplot(x='Sport', y='Athlete', data=athletes_by_sport, palette='viridis')
+    plt.title('Athlete Count by Sport')
+    plt.xlabel('Sport', fontsize=14)
+    plt.ylabel('Number of Athletes')
+    plt.xticks(rotation=90, fontsize=8) 
     st.pyplot(plt)
 
 
 with col2:
-
-    # Medal distribution by type for the selected filter
-    medal_types = data[['Gold', 'Silver', 'Bronze']].sum()
-    plt.figure(figsize=(6, 4))
-    medal_types.plot(kind='bar', color=['#FFD700', '#C0C0C0', '#CD7F32'])
-    plt.title('Medal Distribution')
-    plt.xlabel('Medal Type')
-    plt.ylabel('Count')
-    plt.xticks(rotation=0)
-    st.pyplot(plt)
 
     plt.figure(figsize=(6, 4))
     bins1 = data['First Medal Year'].max()- data['First Medal Year'].min() + 1
@@ -117,12 +136,18 @@ with col2:
     plt.xticks(rotation=90)
     st.pyplot(plt)
 
-     
-    athletes_by_sport = data.groupby('Sport')['Athlete'].nunique()
-    plt.figure(figsize=(6, 4))
-    athletes_by_sport.plot(kind='bar', color='#fb7171')
-    plt.title('Athlete Count by Sport')
-    plt.xlabel('Sport')
-    plt.ylabel('Number of Athletes')
-    plt.xticks(rotation=90, fontsize=8)
-    st.pyplot(plt)
+
+
+    medalists_by_year = data.groupby('First Medal Year')['Athlete'].nunique().reset_index()
+    medalists_by_year['Cumulative Medalists'] = medalists_by_year['Athlete'].cumsum()
+
+    fig, ax = plt.subplots(figsize=(6, 4))
+    sns.lineplot(x='First Medal Year', y='Cumulative Medalists', data=medalists_by_year, marker='o', ax=ax, palette='viridis')
+    ax.set_title('Total Number of Multi-Medalists (6+) Over Time', fontsize=12)
+    ax.set_xlabel('Year', fontsize=12)
+    ax.set_ylabel('Cumulative Number of Multi-Medalists', fontsize=8)
+    ax.grid(True)
+    sns.set_palette("viridis")
+    st.pyplot(fig)
+
+    
