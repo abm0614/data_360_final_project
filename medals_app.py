@@ -5,10 +5,10 @@ import numpy as np
 import plotly.express as px
 import seaborn as sns
 
-st.set_page_config(page_title="Multi-Olympic Medal Recipients", layout="wide")
+st.set_page_config(page_title="Top-Tier Olympic Athletes", layout="wide")
 
-st.title('Multiple Olympic Medal Recipients')
-st.write("This is an app built from data scraped from [Wikipedia](https://en.wikipedia.org/wiki/List_of_multiple_Olympic_medalists) containing information about athletes who have won six or more Olympic Medals during their sporting career.")
+st.title('Top-Tier Olympic Athletes')
+st.write("This is an app built from data scraped from [Wikipedia](https://en.wikipedia.org/wiki/List_of_multiple_Olympic_medalists) containing information about top-tier Olmypic athletes and medalists. Top-tier athletes have been defined as an athlete who has won six or more Olympic Medals during their sporting career.")
 
 # Load and clean data
 data = pd.read_csv('project_data_final.csv')
